@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 2em;
+  background: rgb(200,200,200);
+}
+
+#level {
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  width: 100%;
+  
+}
+
+#passcodeDisplay {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  right: 15px;
+  
+}
+
+#menuButton {
+  position: absolute;
+  left: 20px;
+  border: none;
+  font-size: 0.75em;
+  top: 0;
+  background-color: rgba(80, 80, 80, 0.2);
+  padding-top: 5px;
+  cursor:pointer;
+  transition-duration: 0.3s;
+}
+
+#menuButton:hover {
+  background-color: rgba(3, 202, 252, 0.3);
+
+}
+button:focus, input:focus{
+    outline: none;
+}
+
+button:active {
+  background-color: #4136a5;
+  box-shadow: 0 5px rgba(80, 80, 80, 0.2);
+  transform: translateY(4px);
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  top: 50%;
+  left: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
+  background-color: rgba(80, 80, 80, 0.3);
+  height:105%;
+}
+
+#menuOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(80, 80, 80, 0.0);
+  display: 'none';
+}
+
+.menuButton {
+  border: none;
+  font-size: 1em;
+  background-color: rgba(80, 80, 80, 0.2);
+  padding: 10px;
+  cursor:pointer;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+}
+
+.menuButton:hover {
+  background-color: rgba(80, 80, 80, 0.5);
+  font-size: 1.1em;
+}
+
+
+input {
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  width: 400px;
+  background: rgba(80, 80, 80, 0.8);
+}
+
+#loadMenuExit {
+  font-size: 0.5em;
+}
+
+#winScreen {
+  /* display: block; */
+}
