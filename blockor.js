@@ -72,19 +72,26 @@ class Blockor {
       this.pressing.add(this.keys.down)
       this.moveTo('down')
     }
-    if (this.half && keyIsDown(this.keys.swap)&&!this.pressing.has(this.keys.swap) ) {
+    if ( keyIsDown(this.keys.swap)&&!this.pressing.has(this.keys.swap) && this.half) {
+      console.log("swap")
       this.pressing.add(this.keys.swap)
+      if(!this.justSwapped) {
       this.game.blockor = this.otherBlockor
       this.game.blockor.justSwapped = true
       this.game.blockor.otherBlockor = this
       this.otherBlockor = null
       keyPressed = game.blockor.keyCheck.bind(this.game.blockor)
       keyReleased = game.blockor.keyClear.bind(this.game.blockor)
+      }
+      
     } 
   }
   keyClear() {
     this.pressing.delete(keyCode)
-    if(keyCode === this.keys.swap) this.justSwapped = false
+    if(keyCode === this.keys.swap) {
+      this.justSwapped = false
+      console.log("clearing swap key")
+      }
   }
   moveTo(direction) {
     

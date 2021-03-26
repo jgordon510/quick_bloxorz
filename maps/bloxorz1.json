@@ -879,6 +879,14 @@
  "nextlayerid":10,
  "nextobjectid":274,
  "orientation":"orthogonal",
+ "properties":
+    {
+     "center":198
+    },
+ "propertytypes":
+    {
+     "center":"object"
+    },
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
  "tileheight":50,

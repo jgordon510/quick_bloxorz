@@ -76,6 +76,10 @@ class Tile {
       })
       keyPressed = game.blockor.keyCheck.bind(this.game.blockor)
       keyReleased = game.blockor.keyClear.bind(this.game.blockor)
+      if(keyIsDown(game.blockor.keys.swap)) {
+        game.blockor.justSwapped = true
+      }
+      
       document.getElementById("level").innerHTML+="<br>Press space to switch between the blocks."
     }
     if (!under) this.justActivated = false

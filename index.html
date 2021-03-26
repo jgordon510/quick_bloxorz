@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Quick Bloxorz</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    
-    
-    <div id=level>Stage: 1</div>
-    <div id=passcodeDisplay>Passcode: ______</div>
-    <button id=menuButton>Menu</button>
+
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA=="
+	 crossorigin="anonymous">
+
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Quick Bloxorz</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+	<div id=level>Stage: 1</div>
+  <div id=runTimer>
+    <div id=stageTime>Stage: 00:00:00.000</div>
+    <div id=gameTime>Game: 00:00:00.000</div>
+  </div>
+	<div id=passcodeDisplay>Passcode: ______</div>
+	<button id=menuButton>Menu</button>
     <div id=menu class=menu>
       <h1>QUICK BLOXORZ</h1>
-      <p><button class=menuButton id=restart>Restart Stage</button></p>
       <p><button class=menuButton id=start>Start New Game</button></p>
+      <p><button class=menuButton id=restart>Restart Stage</button></p>
       <p><button class=menuButton id=load>Load Stage</button></p>
-      <p><button class=menuButton id=resume>Resume Game</button></p>
+      <p><button class=menuButton id=options>Options</button></p>
       <p><button class=menuButton id=about>What is This?</button></p>
+      <p><button class=menuButton id=resume>Resume Game</button></p>
+    </div>
+    <div id=optionsMenu class=menu>
+      <h1>OPTIONS</h1>
+      <div class="checkboxContainerContainer">
+        <div class="checkboxContainer">
+        <input type="checkbox" value="0" id="fixedCamera"/>
+        <label for="fixedCamera"></label>
+        </div>
+        <div class=checkboxLabel>Fixed Camera Position</div><br>
+      </div>
+      <div class="checkboxContainerContainer">
+        <div class="checkboxContainer">
+        <input type="checkbox" value="0" id="timer"/>
+        <label for="timer"></label>
+        </div>
+        <div class=checkboxLabel>Speedrun Timer</div><br>
+      </div>
+      <div class="checkboxContainerContainer">
+        <div class="checkboxContainer">
+        <input type="checkbox" value="0" id="darkMode"/>
+        <label for="darkMode"></label>
+        </div>
+        <div class=checkboxLabel>Dark Mode</div><br>
+      </div>
+      <p><button class=menuButton id=settingsMenuExit>Back to Menu</button></p>
     </div>
     <div id=loadMenu class=menu>
       <h1>Enter your passcode:<h1>
