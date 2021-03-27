@@ -1,6 +1,7 @@
 # quick_bloxorz
 An HTML5/WEBGL port of Bloxorz (2007) a Flash puzzle webgame published on miniclip. 
 
+![Screenshot](bloxors_screen.png)
 Bloxorz is a 3d puzzle game in 33 stages published on Miniclip in 2007. The original version was developed by by Damien Clarke.  
 
 The objective of the game is to get the block to fall into a square hole that is at the end of each stage, there are 33 stages to complete.
