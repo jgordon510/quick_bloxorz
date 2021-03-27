@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="11" nextobjectid="4274">
+ <editorsettings>
+  <export target="bloxorz32.json" format="json1"/>
+ </editorsettings>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="4098" x="0" y="0" width="50" height="50"/>
+  <object id="4099" x="-50" y="0" width="50" height="50"/>
+  <object id="4100" x="-50" y="-50" width="50" height="50"/>
+  <object id="4101" x="50" y="-50" width="50" height="50"/>
+  <object id="4102" x="50" y="0" width="50" height="50"/>
+  <object id="4103" x="0" y="-50" width="50" height="50"/>
+  <object id="4104" x="-50" y="150" width="50" height="50"/>
+  <object id="4105" x="0" y="150" width="50" height="50"/>
+  <object id="4106" x="50" y="150" width="50" height="50"/>
+  <object id="4107" x="50" y="250" width="50" height="50"/>
+  <object id="4108" x="0" y="250" width="50" height="50"/>
+  <object id="4109" x="-50" y="250" width="50" height="50"/>
+  <object id="4110" x="-50" y="200" width="50" height="50"/>
+  <object id="4111" x="50" y="200" width="50" height="50"/>
+  <object id="4112" x="50" y="300" width="50" height="50"/>
+  <object id="4113" x="0" y="300" width="50" height="50"/>
+  <object id="4114" x="-50" y="300" width="50" height="50"/>
+  <object id="4121" x="200" y="0" width="50" height="50"/>
+  <object id="4122" x="200" y="-100" width="50" height="50"/>
+  <object id="4123" x="200" y="-150" width="50" height="50"/>
+  <object id="4124" x="200" y="250" width="50" height="50"/>
+  <object id="4125" x="200" y="200" width="50" height="50"/>
+  <object id="4126" x="200" y="150" width="50" height="50"/>
+  <object id="4127" x="200" y="100" width="50" height="50"/>
+  <object id="4128" x="200" y="50" width="50" height="50"/>
+  <object id="4129" x="250" y="250" width="50" height="50"/>
+  <object id="4130" x="250" y="150" width="50" height="50"/>
+  <object id="4131" x="300" y="150" width="50" height="50"/>
+  <object id="4132" x="300" y="200" width="50" height="50"/>
+  <object id="4133" x="300" y="250" width="50" height="50"/>
+  <object id="4134" x="300" y="100" width="50" height="50"/>
+  <object id="4135" x="250" y="100" width="50" height="50"/>
+  <object id="4136" x="250" y="50" width="50" height="50"/>
+  <object id="4137" x="250" y="0" width="50" height="50"/>
+  <object id="4138" x="300" y="0" width="50" height="50"/>
+  <object id="4139" x="300" y="-50" width="50" height="50"/>
+  <object id="4140" x="250" y="-50" width="50" height="50"/>
+  <object id="4141" x="250" y="-100" width="50" height="50"/>
+  <object id="4142" x="300" y="-100" width="50" height="50"/>
+  <object id="4143" x="250" y="-150" width="50" height="50"/>
+  <object id="4144" x="350" y="-150" width="50" height="50"/>
+  <object id="4145" x="350" y="-100" width="50" height="50"/>
+  <object id="4146" x="350" y="0" width="50" height="50"/>
+  <object id="4147" x="350" y="50" width="50" height="50"/>
+  <object id="4148" x="350" y="100" width="50" height="50"/>
+  <object id="4149" x="350" y="150" width="50" height="50"/>
+  <object id="4150" x="400" y="150" width="50" height="50"/>
+  <object id="4151" x="400" y="100" width="50" height="50"/>
+  <object id="4152" x="400" y="50" width="50" height="50"/>
+  <object id="4153" x="400" y="-50" width="50" height="50"/>
+  <object id="4154" x="400" y="-100" width="50" height="50"/>
+  <object id="4155" x="400" y="-150" width="50" height="50"/>
+  <object id="4156" x="450" y="-150" width="50" height="50"/>
+  <object id="4157" x="450" y="-100" width="50" height="50"/>
+  <object id="4158" x="450" y="-50" width="50" height="50"/>
+  <object id="4159" x="450" y="100" width="50" height="50"/>
+  <object id="4160" x="450" y="150" width="50" height="50"/>
+  <object id="4161" x="450" y="200" width="50" height="50"/>
+  <object id="4162" x="500" y="250" width="50" height="50"/>
+  <object id="4163" x="500" y="200" width="50" height="50"/>
+  <object id="4164" x="500" y="50" width="50" height="50"/>
+  <object id="4165" x="500" y="0" width="50" height="50"/>
+  <object id="4167" x="500" y="-50" width="50" height="50"/>
+  <object id="4168" x="550" y="300" width="50" height="50"/>
+  <object id="4169" x="550" y="250" width="50" height="50"/>
+  <object id="4170" x="550" y="200" width="50" height="50"/>
+  <object id="4171" x="550" y="150" width="50" height="50"/>
+  <object id="4172" x="550" y="100" width="50" height="50"/>
+  <object id="4173" x="550" y="50" width="50" height="50"/>
+  <object id="4174" x="550" y="0" width="50" height="50"/>
+  <object id="4175" x="550" y="-50" width="50" height="50"/>
+  <object id="4176" x="600" y="-50" width="50" height="50"/>
+  <object id="4177" x="600" y="50" width="50" height="50"/>
+  <object id="4178" x="600" y="100" width="50" height="50"/>
+  <object id="4179" x="600" y="150" width="50" height="50"/>
+  <object id="4180" x="600" y="250" width="50" height="50"/>
+  <object id="4181" x="600" y="300" width="50" height="50"/>
+  <object id="4182" x="650" y="300" width="50" height="50"/>
+  <object id="4183" x="650" y="250" width="50" height="50"/>
+  <object id="4184" x="650" y="150" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge">
+  <object id="3833" x="100" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4118" x="150" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4119" x="100" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4120" x="150" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4196" x="500" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeC"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="2610" x="0" y="200" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button">
+  <object id="4010" x="650" y="200" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeC"/>
+    <property name="hard" type="bool" value="true"/>
+    <property name="type" value="on"/>
+   </properties>
+  </object>
+  <object id="4116" x="300" y="-150" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4185" x="350" y="-50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4186" x="400" y="0" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4187" x="450" y="0" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4188" x="450" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4189" x="300" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4190" x="250" y="200" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4191" x="500" y="100" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4192" x="500" y="150" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4193" x="600" y="0" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4194" x="600" y="200" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="4195" x="200" y="-50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="4197" x="200" y="-200" width="50" height="50"/>
+  <object id="4199" x="250" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4200" x="300" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4201" x="350" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4202" x="400" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4203" x="450" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4204" x="500" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4205" x="500" y="-150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4206" x="550" y="-150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4207" x="550" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4208" x="600" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4209" x="650" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4210" x="650" y="-50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4211" x="650" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4212" x="650" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4213" x="650" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4214" x="700" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4215" x="700" y="150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4216" x="700" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4217" x="700" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4218" x="700" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4219" x="700" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4220" x="650" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4221" x="600" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4222" x="550" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4223" x="500" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4224" x="500" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4225" x="450" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4226" x="450" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4227" x="400" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4228" x="400" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4229" x="350" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4230" x="350" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4231" x="350" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4232" x="300" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4233" x="250" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4234" x="200" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4235" x="150" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4236" x="150" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4237" x="100" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4238" x="100" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4239" x="100" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4240" x="50" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4241" x="0" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4242" x="-50" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4243" x="-100" y="350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4244" x="-100" y="300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4245" x="-100" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4246" x="-100" y="200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4247" x="-100" y="150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4248" x="-100" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4249" x="-50" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4250" x="0" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4251" x="50" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4252" x="100" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4253" x="100" y="150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4254" x="150" y="150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4255" x="150" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4256" x="150" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4257" x="100" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4258" x="50" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4259" x="0" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4260" x="-50" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4261" x="-100" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4262" x="-100" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4263" x="-100" y="-50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4264" x="-100" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4265" x="-50" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4266" x="0" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4267" x="50" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4268" x="100" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4269" x="100" y="-50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4270" x="150" y="-50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4271" x="150" y="-100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4272" x="150" y="-150" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4273" x="150" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#f49f0a" id="9" name="weak"/>
+ <objectgroup color="#ffff00" id="10" name="splitter"/>
+</map>

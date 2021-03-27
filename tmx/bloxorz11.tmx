@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="11" nextobjectid="845">
+ <editorsettings>
+  <export target="." format="json1"/>
+ </editorsettings>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="721" x="0" y="0" width="50" height="50"/>
+  <object id="722" x="50" y="0" width="50" height="50"/>
+  <object id="723" x="100" y="0" width="50" height="50"/>
+  <object id="724" x="150" y="0" width="50" height="50"/>
+  <object id="725" x="200" y="0" width="50" height="50"/>
+  <object id="726" x="50" y="-50" width="50" height="50"/>
+  <object id="727" x="50" y="-100" width="50" height="50"/>
+  <object id="728" x="50" y="-150" width="50" height="50"/>
+  <object id="729" x="50" y="-200" width="50" height="50"/>
+  <object id="730" x="50" y="-250" width="50" height="50"/>
+  <object id="731" x="100" y="-250" width="50" height="50"/>
+  <object id="732" x="150" y="-250" width="50" height="50"/>
+  <object id="733" x="150" y="-200" width="50" height="50"/>
+  <object id="734" x="150" y="-150" width="50" height="50"/>
+  <object id="736" x="100" y="-150" width="50" height="50"/>
+  <object id="737" x="250" y="0" width="50" height="50"/>
+  <object id="738" x="300" y="0" width="50" height="50"/>
+  <object id="740" x="250" y="50" width="50" height="50"/>
+  <object id="741" x="250" y="-50" width="50" height="50"/>
+  <object id="742" x="300" y="-50" width="50" height="50"/>
+  <object id="743" x="300" y="-100" width="50" height="50"/>
+  <object id="744" x="250" y="-100" width="50" height="50"/>
+  <object id="745" x="350" y="-100" width="50" height="50"/>
+  <object id="746" x="400" y="-100" width="50" height="50"/>
+  <object id="747" x="250" y="100" width="50" height="50"/>
+  <object id="749" x="300" y="100" width="50" height="50"/>
+  <object id="750" x="250" y="150" width="50" height="50"/>
+  <object id="751" x="300" y="150" width="50" height="50"/>
+  <object id="753" x="350" y="100" width="50" height="50"/>
+  <object id="754" x="400" y="100" width="50" height="50"/>
+  <object id="755" x="400" y="150" width="50" height="50"/>
+  <object id="756" x="350" y="150" width="50" height="50"/>
+  <object id="757" x="400" y="200" width="50" height="50"/>
+  <object id="758" x="450" y="200" width="50" height="50"/>
+  <object id="759" x="450" y="150" width="50" height="50"/>
+  <object id="760" x="500" y="150" width="50" height="50"/>
+  <object id="761" x="500" y="200" width="50" height="50"/>
+  <object id="762" x="550" y="150" width="50" height="50"/>
+  <object id="763" x="550" y="100" width="50" height="50"/>
+  <object id="764" x="550" y="50" width="50" height="50"/>
+  <object id="765" x="550" y="0" width="50" height="50"/>
+  <object id="766" x="450" y="0" width="50" height="50"/>
+  <object id="767" x="500" y="0" width="50" height="50"/>
+  <object id="768" x="450" y="-50" width="50" height="50"/>
+  <object id="769" x="500" y="-50" width="50" height="50"/>
+  <object id="770" x="450" y="-100" width="50" height="50"/>
+  <object id="771" x="500" y="-100" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge">
+  <object id="644" x="200" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="645" x="200" y="-200" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="323" x="100" y="-200" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button">
+  <object id="643" x="300" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeA"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="772" x="50" y="-300" width="50" height="50"/>
+  <object id="773" x="100" y="-300" width="50" height="50"/>
+  <object id="774" x="150" y="-300" width="50" height="50"/>
+  <object id="775" x="200" y="-300" width="50" height="50"/>
+  <object id="776" x="250" y="-250" width="50" height="50"/>
+  <object id="777" x="250" y="-200" width="50" height="50"/>
+  <object id="778" x="200" y="-150" width="50" height="50"/>
+  <object id="779" x="250" y="-150" width="50" height="50"/>
+  <object id="780" x="150" y="-100" width="50" height="50"/>
+  <object id="781" x="100" y="-100" width="50" height="50"/>
+  <object id="782" x="100" y="-50" width="50" height="50"/>
+  <object id="783" x="200" y="-100" width="50" height="50"/>
+  <object id="784" x="150" y="-50" width="50" height="50"/>
+  <object id="785" x="200" y="-50" width="50" height="50"/>
+  <object id="786" x="300" y="-150" width="50" height="50"/>
+  <object id="787" x="350" y="-150" width="50" height="50"/>
+  <object id="788" x="400" y="-150" width="50" height="50"/>
+  <object id="789" x="450" y="-150" width="50" height="50"/>
+  <object id="790" x="500" y="-150" width="50" height="50"/>
+  <object id="791" x="550" y="-100" width="50" height="50"/>
+  <object id="793" x="550" y="-50" width="50" height="50"/>
+  <object id="795" x="600" y="0" width="50" height="50"/>
+  <object id="796" x="600" y="50" width="50" height="50"/>
+  <object id="797" x="600" y="100" width="50" height="50"/>
+  <object id="798" x="600" y="150" width="50" height="50"/>
+  <object id="799" x="550" y="200" width="50" height="50"/>
+  <object id="800" x="500" y="250" width="50" height="50"/>
+  <object id="802" x="450" y="250" width="50" height="50"/>
+  <object id="804" x="400" y="250" width="50" height="50"/>
+  <object id="805" x="350" y="200" width="50" height="50"/>
+  <object id="806" x="300" y="200" width="50" height="50"/>
+  <object id="807" x="250" y="200" width="50" height="50"/>
+  <object id="809" x="200" y="150" width="50" height="50"/>
+  <object id="810" x="200" y="100" width="50" height="50"/>
+  <object id="812" x="200" y="50" width="50" height="50"/>
+  <object id="813" x="150" y="50" width="50" height="50"/>
+  <object id="814" x="100" y="50" width="50" height="50"/>
+  <object id="815" x="50" y="50" width="50" height="50"/>
+  <object id="816" x="0" y="50" width="50" height="50"/>
+  <object id="817" x="-50" y="0" width="50" height="50"/>
+  <object id="818" x="0" y="-50" width="50" height="50"/>
+  <object id="819" x="0" y="-100" width="50" height="50"/>
+  <object id="820" x="0" y="-150" width="50" height="50"/>
+  <object id="821" x="0" y="-200" width="50" height="50"/>
+  <object id="822" x="0" y="-250" width="50" height="50"/>
+  <object id="823" x="350" y="-50" width="50" height="50"/>
+  <object id="824" x="350" y="0" width="50" height="50"/>
+  <object id="825" x="350" y="50" width="50" height="50"/>
+  <object id="826" x="400" y="50" width="50" height="50"/>
+  <object id="827" x="400" y="0" width="50" height="50"/>
+  <object id="828" x="400" y="-50" width="50" height="50"/>
+  <object id="831" x="450" y="50" width="50" height="50"/>
+  <object id="832" x="500" y="50" width="50" height="50"/>
+  <object id="833" x="500" y="100" width="50" height="50"/>
+  <object id="834" x="450" y="100" width="50" height="50"/>
+  <object id="835" x="0" y="-300" width="50" height="50"/>
+  <object id="836" x="250" y="-300" width="50" height="50"/>
+  <object id="837" x="-50" y="-50" width="50" height="50"/>
+  <object id="838" x="-50" y="50" width="50" height="50"/>
+  <object id="839" x="200" y="200" width="50" height="50"/>
+  <object id="840" x="350" y="250" width="50" height="50"/>
+  <object id="841" x="550" y="250" width="50" height="50"/>
+  <object id="842" x="600" y="-50" width="50" height="50"/>
+  <object id="843" x="550" y="-150" width="50" height="50"/>
+  <object id="844" x="600" y="200" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup id="9" name="weak"/>
+ <objectgroup color="#ffff00" id="10" name="splitter"/>
+</map>

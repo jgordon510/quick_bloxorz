@@ -19,9 +19,12 @@ class Game {
     document.getElementById("passcodeDisplay").innerText = "Passcode: " + this.getCode(this.levelN)
   }
   update() {
+    if(this.lastFrame) return
     this.stage.update()
-    this.grid.update()
-    this.blockor.update()
+     this.grid.update()
+    
+    if(frameCount > 2) this.blockor.update()
+   
   }
   openMenu() {
     this.menuOpen = true

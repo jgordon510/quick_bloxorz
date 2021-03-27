@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="11" nextobjectid="2014">
+ <editorsettings>
+  <export target="." format="json1"/>
+ </editorsettings>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="1852" x="0" y="0" width="50" height="50"/>
+  <object id="1853" x="50" y="0" width="50" height="50"/>
+  <object id="1854" x="100" y="0" width="50" height="50"/>
+  <object id="1855" x="150" y="0" width="50" height="50"/>
+  <object id="1856" x="200" y="0" width="50" height="50"/>
+  <object id="1857" x="200" y="50" width="50" height="50"/>
+  <object id="1858" x="200" y="100" width="50" height="50"/>
+  <object id="1859" x="250" y="100" width="50" height="50"/>
+  <object id="1860" x="250" y="50" width="50" height="50"/>
+  <object id="1861" x="250" y="0" width="50" height="50"/>
+  <object id="1862" x="300" y="0" width="50" height="50"/>
+  <object id="1863" x="350" y="0" width="50" height="50"/>
+  <object id="1864" x="400" y="0" width="50" height="50"/>
+  <object id="1865" x="500" y="0" width="50" height="50"/>
+  <object id="1866" x="550" y="0" width="50" height="50"/>
+  <object id="1867" x="600" y="0" width="50" height="50"/>
+  <object id="1868" x="650" y="0" width="50" height="50"/>
+  <object id="1869" x="600" y="50" width="50" height="50"/>
+  <object id="1870" x="650" y="50" width="50" height="50"/>
+  <object id="1871" x="600" y="100" width="50" height="50"/>
+  <object id="1872" x="650" y="100" width="50" height="50"/>
+  <object id="1873" x="600" y="150" width="50" height="50"/>
+  <object id="1874" x="650" y="150" width="50" height="50"/>
+  <object id="1875" x="600" y="200" width="50" height="50"/>
+  <object id="1876" x="650" y="200" width="50" height="50"/>
+  <object id="1877" x="650" y="250" width="50" height="50"/>
+  <object id="1878" x="600" y="250" width="50" height="50"/>
+  <object id="1879" x="550" y="250" width="50" height="50"/>
+  <object id="1880" x="500" y="250" width="50" height="50"/>
+  <object id="1881" x="400" y="250" width="50" height="50"/>
+  <object id="1882" x="250" y="250" width="50" height="50"/>
+  <object id="1883" x="200" y="250" width="50" height="50"/>
+  <object id="1884" x="50" y="250" width="50" height="50"/>
+  <object id="1885" x="0" y="250" width="50" height="50"/>
+  <object id="1886" x="-50" y="250" width="50" height="50"/>
+  <object id="1887" x="-50" y="300" width="50" height="50"/>
+  <object id="1888" x="50" y="300" width="50" height="50"/>
+  <object id="1889" x="50" y="350" width="50" height="50"/>
+  <object id="1890" x="0" y="350" width="50" height="50"/>
+  <object id="1891" x="-50" y="350" width="50" height="50"/>
+  <object id="1892" x="0" y="400" width="50" height="50"/>
+  <object id="1893" x="50" y="400" width="50" height="50"/>
+  <object id="1894" x="0" y="450" width="50" height="50"/>
+  <object id="1895" x="150" y="450" width="50" height="50"/>
+  <object id="1896" x="200" y="450" width="50" height="50"/>
+  <object id="1897" x="250" y="450" width="50" height="50"/>
+  <object id="1898" x="200" y="400" width="50" height="50"/>
+  <object id="1899" x="250" y="400" width="50" height="50"/>
+  <object id="1900" x="200" y="350" width="50" height="50"/>
+  <object id="1901" x="250" y="350" width="50" height="50"/>
+  <object id="1902" x="200" y="300" width="50" height="50"/>
+  <object id="1903" x="250" y="300" width="50" height="50"/>
+  <object id="1904" x="300" y="450" width="50" height="50"/>
+  <object id="1905" x="350" y="450" width="50" height="50"/>
+  <object id="1906" x="400" y="450" width="50" height="50"/>
+  <object id="1907" x="500" y="450" width="50" height="50"/>
+  <object id="1908" x="550" y="450" width="50" height="50"/>
+  <object id="1909" x="600" y="450" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge">
+  <object id="1777" x="100" y="450" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1778" x="50" y="450" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1779" x="350" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="1780" x="300" y="250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="323" x="0" y="300" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button">
+  <object id="1646" x="450" y="250" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="1773" x="450" y="450" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="on"/>
+   </properties>
+  </object>
+  <object id="1782" x="450" y="0" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeA"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="toggle"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="1910" x="0" y="-50" width="50" height="50"/>
+  <object id="1911" x="50" y="-50" width="50" height="50"/>
+  <object id="1912" x="100" y="-50" width="50" height="50"/>
+  <object id="1913" x="150" y="-50" width="50" height="50"/>
+  <object id="1914" x="200" y="-50" width="50" height="50"/>
+  <object id="1915" x="250" y="-50" width="50" height="50"/>
+  <object id="1916" x="300" y="-50" width="50" height="50"/>
+  <object id="1917" x="350" y="-50" width="50" height="50"/>
+  <object id="1918" x="400" y="-50" width="50" height="50"/>
+  <object id="1919" x="450" y="-50" width="50" height="50"/>
+  <object id="1920" x="500" y="-50" width="50" height="50"/>
+  <object id="1921" x="550" y="-50" width="50" height="50"/>
+  <object id="1922" x="600" y="-50" width="50" height="50"/>
+  <object id="1923" x="650" y="-50" width="50" height="50"/>
+  <object id="1924" x="700" y="0" width="50" height="50"/>
+  <object id="1925" x="550" y="50" width="50" height="50"/>
+  <object id="1926" x="700" y="50" width="50" height="50"/>
+  <object id="1927" x="550" y="100" width="50" height="50"/>
+  <object id="1928" x="700" y="100" width="50" height="50"/>
+  <object id="1929" x="550" y="150" width="50" height="50"/>
+  <object id="1930" x="700" y="150" width="50" height="50"/>
+  <object id="1931" x="550" y="200" width="50" height="50"/>
+  <object id="1932" x="700" y="200" width="50" height="50"/>
+  <object id="1933" x="700" y="250" width="50" height="50"/>
+  <object id="1934" x="650" y="300" width="50" height="50"/>
+  <object id="1935" x="600" y="300" width="50" height="50"/>
+  <object id="1936" x="550" y="300" width="50" height="50"/>
+  <object id="1937" x="500" y="300" width="50" height="50"/>
+  <object id="1938" x="450" y="300" width="50" height="50"/>
+  <object id="1939" x="400" y="300" width="50" height="50"/>
+  <object id="1940" x="350" y="300" width="50" height="50"/>
+  <object id="1941" x="300" y="300" width="50" height="50"/>
+  <object id="1942" x="300" y="350" width="50" height="50"/>
+  <object id="1943" x="300" y="400" width="50" height="50"/>
+  <object id="1944" x="350" y="400" width="50" height="50"/>
+  <object id="1945" x="400" y="400" width="50" height="50"/>
+  <object id="1946" x="450" y="400" width="50" height="50"/>
+  <object id="1947" x="500" y="400" width="50" height="50"/>
+  <object id="1948" x="550" y="400" width="50" height="50"/>
+  <object id="1949" x="600" y="400" width="50" height="50"/>
+  <object id="1950" x="650" y="450" width="50" height="50"/>
+  <object id="1951" x="600" y="500" width="50" height="50"/>
+  <object id="1952" x="550" y="500" width="50" height="50"/>
+  <object id="1953" x="500" y="500" width="50" height="50"/>
+  <object id="1954" x="450" y="500" width="50" height="50"/>
+  <object id="1955" x="400" y="500" width="50" height="50"/>
+  <object id="1956" x="350" y="500" width="50" height="50"/>
+  <object id="1957" x="300" y="500" width="50" height="50"/>
+  <object id="1958" x="250" y="500" width="50" height="50"/>
+  <object id="1959" x="200" y="500" width="50" height="50"/>
+  <object id="1960" x="150" y="500" width="50" height="50"/>
+  <object id="1961" x="100" y="500" width="50" height="50"/>
+  <object id="1962" x="50" y="500" width="50" height="50"/>
+  <object id="1963" x="0" y="500" width="50" height="50"/>
+  <object id="1964" x="-50" y="450" width="50" height="50"/>
+  <object id="1965" x="-50" y="400" width="50" height="50"/>
+  <object id="1966" x="-100" y="350" width="50" height="50"/>
+  <object id="1967" x="-100" y="300" width="50" height="50"/>
+  <object id="1968" x="-100" y="250" width="50" height="50"/>
+  <object id="1969" x="-50" y="200" width="50" height="50"/>
+  <object id="1970" x="0" y="200" width="50" height="50"/>
+  <object id="1971" x="50" y="200" width="50" height="50"/>
+  <object id="1972" x="100" y="250" width="50" height="50"/>
+  <object id="1973" x="100" y="300" width="50" height="50"/>
+  <object id="1974" x="100" y="350" width="50" height="50"/>
+  <object id="1975" x="100" y="400" width="50" height="50"/>
+  <object id="1976" x="150" y="400" width="50" height="50"/>
+  <object id="1977" x="150" y="350" width="50" height="50"/>
+  <object id="1978" x="150" y="300" width="50" height="50"/>
+  <object id="1979" x="150" y="250" width="50" height="50"/>
+  <object id="1980" x="200" y="200" width="50" height="50"/>
+  <object id="1981" x="250" y="200" width="50" height="50"/>
+  <object id="1982" x="300" y="200" width="50" height="50"/>
+  <object id="1983" x="350" y="200" width="50" height="50"/>
+  <object id="1984" x="400" y="200" width="50" height="50"/>
+  <object id="1985" x="450" y="200" width="50" height="50"/>
+  <object id="1986" x="500" y="200" width="50" height="50"/>
+  <object id="1987" x="500" y="50" width="50" height="50"/>
+  <object id="1988" x="450" y="50" width="50" height="50"/>
+  <object id="1989" x="400" y="50" width="50" height="50"/>
+  <object id="1990" x="350" y="50" width="50" height="50"/>
+  <object id="1991" x="300" y="50" width="50" height="50"/>
+  <object id="1992" x="300" y="100" width="50" height="50"/>
+  <object id="1993" x="250" y="150" width="50" height="50"/>
+  <object id="1994" x="200" y="150" width="50" height="50"/>
+  <object id="1995" x="150" y="100" width="50" height="50"/>
+  <object id="1996" x="150" y="50" width="50" height="50"/>
+  <object id="1997" x="100" y="50" width="50" height="50"/>
+  <object id="1998" x="50" y="50" width="50" height="50"/>
+  <object id="1999" x="0" y="50" width="50" height="50"/>
+  <object id="2000" x="-50" y="0" width="50" height="50"/>
+  <object id="2001" x="-50" y="-50" width="50" height="50"/>
+  <object id="2002" x="-50" y="50" width="50" height="50"/>
+  <object id="2003" x="-100" y="200" width="50" height="50"/>
+  <object id="2004" x="-100" y="400" width="50" height="50"/>
+  <object id="2005" x="-50" y="500" width="50" height="50"/>
+  <object id="2006" x="650" y="500" width="50" height="50"/>
+  <object id="2007" x="650" y="400" width="50" height="50"/>
+  <object id="2008" x="700" y="300" width="50" height="50"/>
+  <object id="2009" x="700" y="-50" width="50" height="50"/>
+  <object id="2010" x="300" y="150" width="50" height="50"/>
+  <object id="2011" x="150" y="150" width="50" height="50"/>
+  <object id="2012" x="150" y="200" width="50" height="50"/>
+  <object id="2013" x="100" y="200" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#f49f0a" id="9" name="weak"/>
+ <objectgroup color="#ffff00" id="10" name="splitter"/>
+</map>

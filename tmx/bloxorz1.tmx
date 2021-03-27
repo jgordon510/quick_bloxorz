@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="10" nextobjectid="274">
+ <editorsettings>
+  <export target="bloxorz1.json" format="json1"/>
+ </editorsettings>
+ <properties>
+  <property name="center" type="object" value="198"/>
+ </properties>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="179" x="-50" y="-50" width="50" height="50"/>
+  <object id="180" x="0" y="-50" width="50" height="50"/>
+  <object id="181" x="50" y="-50" width="50" height="50"/>
+  <object id="182" x="-50" y="0" width="50" height="50"/>
+  <object id="183" x="0" y="0" width="50" height="50"/>
+  <object id="184" x="50" y="0" width="50" height="50"/>
+  <object id="185" x="-50" y="50" width="50" height="50"/>
+  <object id="186" x="0" y="50" width="50" height="50"/>
+  <object id="187" x="50" y="50" width="50" height="50"/>
+  <object id="188" x="0" y="100" width="50" height="50"/>
+  <object id="189" x="50" y="100" width="50" height="50"/>
+  <object id="190" x="100" y="100" width="50" height="50"/>
+  <object id="191" x="100" y="0" width="50" height="50"/>
+  <object id="192" x="150" y="0" width="50" height="50"/>
+  <object id="193" x="200" y="0" width="50" height="50"/>
+  <object id="194" x="100" y="50" width="50" height="50"/>
+  <object id="195" x="150" y="50" width="50" height="50"/>
+  <object id="196" x="200" y="50" width="50" height="50"/>
+  <object id="197" x="150" y="100" width="50" height="50"/>
+  <object id="198" x="200" y="100" width="50" height="50"/>
+  <object id="199" x="200" y="150" width="50" height="50"/>
+  <object id="200" x="250" y="50" width="50" height="50"/>
+  <object id="201" x="250" y="100" width="50" height="50"/>
+  <object id="202" x="250" y="150" width="50" height="50"/>
+  <object id="203" x="250" y="200" width="50" height="50"/>
+  <object id="204" x="300" y="50" width="50" height="50"/>
+  <object id="205" x="300" y="100" width="50" height="50"/>
+  <object id="206" x="300" y="200" width="50" height="50"/>
+  <object id="207" x="350" y="50" width="50" height="50"/>
+  <object id="208" x="350" y="100" width="50" height="50"/>
+  <object id="209" x="350" y="150" width="50" height="50"/>
+  <object id="210" x="350" y="200" width="50" height="50"/>
+  <object id="211" x="400" y="100" width="50" height="50"/>
+  <object id="212" x="400" y="150" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge"/>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="77" x="300" y="150" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button"/>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="238" x="-50" y="-100" width="50" height="50"/>
+  <object id="239" x="0" y="-100" width="50" height="50"/>
+  <object id="240" x="50" y="-100" width="50" height="50"/>
+  <object id="241" x="100" y="-50" width="50" height="50"/>
+  <object id="242" x="0" y="150" width="50" height="50"/>
+  <object id="243" x="50" y="150" width="50" height="50"/>
+  <object id="244" x="100" y="150" width="50" height="50"/>
+  <object id="245" x="150" y="150" width="50" height="50"/>
+  <object id="246" x="250" y="0" width="50" height="50"/>
+  <object id="247" x="300" y="0" width="50" height="50"/>
+  <object id="248" x="350" y="0" width="50" height="50"/>
+  <object id="249" x="150" y="-50" width="50" height="50"/>
+  <object id="250" x="200" y="-50" width="50" height="50"/>
+  <object id="251" x="250" y="250" width="50" height="50"/>
+  <object id="252" x="300" y="250" width="50" height="50"/>
+  <object id="253" x="350" y="250" width="50" height="50"/>
+  <object id="254" x="200" y="200" width="50" height="50"/>
+  <object id="255" x="400" y="200" width="50" height="50"/>
+  <object id="256" x="400" y="50" width="50" height="50"/>
+  <object id="257" x="450" y="100" width="50" height="50"/>
+  <object id="258" x="450" y="150" width="50" height="50"/>
+  <object id="259" x="-100" y="-50" width="50" height="50"/>
+  <object id="260" x="-100" y="0" width="50" height="50"/>
+  <object id="261" x="-100" y="50" width="50" height="50"/>
+  <object id="262" x="-50" y="100" width="50" height="50"/>
+  <object id="263" x="250" y="-50" width="50" height="50"/>
+  <object id="264" x="100" y="-100" width="50" height="50"/>
+  <object id="265" x="-100" y="-100" width="50" height="50"/>
+  <object id="266" x="-100" y="100" width="50" height="50"/>
+  <object id="267" x="-50" y="150" width="50" height="50"/>
+  <object id="268" x="150" y="200" width="50" height="50"/>
+  <object id="269" x="200" y="250" width="50" height="50"/>
+  <object id="270" x="400" y="250" width="50" height="50"/>
+  <object id="271" x="450" y="200" width="50" height="50"/>
+  <object id="272" x="450" y="50" width="50" height="50"/>
+  <object id="273" x="400" y="0" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup id="9" name="weak"/>
+</map>

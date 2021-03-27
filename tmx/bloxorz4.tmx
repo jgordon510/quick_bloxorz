@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="10" nextobjectid="513">
+ <editorsettings>
+  <export target="." format="json1"/>
+ </editorsettings>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="346" x="-50" y="50" width="50" height="50"/>
+  <object id="347" x="0" y="50" width="50" height="50"/>
+  <object id="348" x="50" y="50" width="50" height="50"/>
+  <object id="349" x="-50" y="0" width="50" height="50"/>
+  <object id="350" x="0" y="0" width="50" height="50"/>
+  <object id="351" x="50" y="0" width="50" height="50"/>
+  <object id="352" x="-50" y="-50" width="50" height="50"/>
+  <object id="353" x="0" y="-50" width="50" height="50"/>
+  <object id="354" x="50" y="-50" width="50" height="50"/>
+  <object id="355" x="-50" y="-100" width="50" height="50"/>
+  <object id="356" x="0" y="-100" width="50" height="50"/>
+  <object id="357" x="50" y="-100" width="50" height="50"/>
+  <object id="358" x="-50" y="-150" width="50" height="50"/>
+  <object id="359" x="0" y="-150" width="50" height="50"/>
+  <object id="360" x="50" y="-150" width="50" height="50"/>
+  <object id="361" x="100" y="-150" width="50" height="50"/>
+  <object id="378" x="450" y="-150" width="50" height="50"/>
+  <object id="379" x="500" y="-150" width="50" height="50"/>
+  <object id="380" x="550" y="-150" width="50" height="50"/>
+  <object id="381" x="550" y="-100" width="50" height="50"/>
+  <object id="382" x="500" y="-100" width="50" height="50"/>
+  <object id="383" x="500" y="-50" width="50" height="50"/>
+  <object id="384" x="550" y="-50" width="50" height="50"/>
+  <object id="403" x="600" y="100" width="50" height="50"/>
+  <object id="410" x="400" y="0" width="50" height="50"/>
+  <object id="411" x="350" y="0" width="50" height="50"/>
+  <object id="412" x="350" y="50" width="50" height="50"/>
+  <object id="413" x="400" y="50" width="50" height="50"/>
+  <object id="414" x="300" y="0" width="50" height="50"/>
+  <object id="415" x="250" y="0" width="50" height="50"/>
+  <object id="416" x="250" y="50" width="50" height="50"/>
+  <object id="417" x="300" y="50" width="50" height="50"/>
+  <object id="418" x="350" y="150" width="50" height="50"/>
+  <object id="419" x="300" y="150" width="50" height="50"/>
+  <object id="420" x="250" y="150" width="50" height="50"/>
+  <object id="421" x="350" y="100" width="50" height="50"/>
+  <object id="422" x="250" y="100" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge"/>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="77" x="300" y="100" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button"/>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="424" x="100" y="-300" width="50" height="50"/>
+  <object id="426" x="150" y="-300" width="50" height="50"/>
+  <object id="427" x="200" y="-300" width="50" height="50"/>
+  <object id="428" x="250" y="-300" width="50" height="50"/>
+  <object id="429" x="300" y="-300" width="50" height="50"/>
+  <object id="430" x="350" y="-300" width="50" height="50"/>
+  <object id="431" x="400" y="-300" width="50" height="50"/>
+  <object id="432" x="450" y="-300" width="50" height="50"/>
+  <object id="433" x="500" y="-250" width="50" height="50"/>
+  <object id="434" x="500" y="-200" width="50" height="50"/>
+  <object id="435" x="550" y="-200" width="50" height="50"/>
+  <object id="437" x="600" y="-150" width="50" height="50"/>
+  <object id="438" x="600" y="-100" width="50" height="50"/>
+  <object id="439" x="600" y="-50" width="50" height="50"/>
+  <object id="440" x="650" y="-50" width="50" height="50"/>
+  <object id="441" x="700" y="0" width="50" height="50"/>
+  <object id="442" x="700" y="50" width="50" height="50"/>
+  <object id="443" x="700" y="100" width="50" height="50"/>
+  <object id="444" x="700" y="150" width="50" height="50"/>
+  <object id="445" x="650" y="200" width="50" height="50"/>
+  <object id="446" x="600" y="200" width="50" height="50"/>
+  <object id="447" x="550" y="200" width="50" height="50"/>
+  <object id="448" x="500" y="200" width="50" height="50"/>
+  <object id="449" x="450" y="150" width="50" height="50"/>
+  <object id="450" x="450" y="100" width="50" height="50"/>
+  <object id="451" x="400" y="100" width="50" height="50"/>
+  <object id="453" x="400" y="150" width="50" height="50"/>
+  <object id="454" x="350" y="200" width="50" height="50"/>
+  <object id="455" x="300" y="200" width="50" height="50"/>
+  <object id="456" x="250" y="200" width="50" height="50"/>
+  <object id="458" x="200" y="150" width="50" height="50"/>
+  <object id="459" x="200" y="100" width="50" height="50"/>
+  <object id="461" x="200" y="50" width="50" height="50"/>
+  <object id="462" x="200" y="0" width="50" height="50"/>
+  <object id="464" x="250" y="-50" width="50" height="50"/>
+  <object id="465" x="300" y="-50" width="50" height="50"/>
+  <object id="467" x="350" y="-50" width="50" height="50"/>
+  <object id="468" x="400" y="-50" width="50" height="50"/>
+  <object id="469" x="450" y="-50" width="50" height="50"/>
+  <object id="470" x="450" y="-100" width="50" height="50"/>
+  <object id="472" x="400" y="-150" width="50" height="50"/>
+  <object id="473" x="350" y="-150" width="50" height="50"/>
+  <object id="474" x="300" y="-150" width="50" height="50"/>
+  <object id="475" x="250" y="-150" width="50" height="50"/>
+  <object id="476" x="200" y="-150" width="50" height="50"/>
+  <object id="478" x="150" y="-150" width="50" height="50"/>
+  <object id="479" x="100" y="-100" width="50" height="50"/>
+  <object id="480" x="100" y="-50" width="50" height="50"/>
+  <object id="481" x="100" y="0" width="50" height="50"/>
+  <object id="482" x="100" y="50" width="50" height="50"/>
+  <object id="484" x="50" y="100" width="50" height="50"/>
+  <object id="485" x="0" y="100" width="50" height="50"/>
+  <object id="486" x="-50" y="100" width="50" height="50"/>
+  <object id="487" x="-100" y="50" width="50" height="50"/>
+  <object id="488" x="-100" y="0" width="50" height="50"/>
+  <object id="489" x="-100" y="-50" width="50" height="50"/>
+  <object id="490" x="-100" y="-100" width="50" height="50"/>
+  <object id="492" x="-100" y="-150" width="50" height="50"/>
+  <object id="493" x="-50" y="-200" width="50" height="50"/>
+  <object id="494" x="0" y="-200" width="50" height="50"/>
+  <object id="495" x="50" y="-200" width="50" height="50"/>
+  <object id="496" x="50" y="-250" width="50" height="50"/>
+  <object id="497" x="700" y="-50" width="50" height="50"/>
+  <object id="498" x="600" y="-200" width="50" height="50"/>
+  <object id="501" x="500" y="-300" width="50" height="50"/>
+  <object id="502" x="50" y="-300" width="50" height="50"/>
+  <object id="503" x="-100" y="-200" width="50" height="50"/>
+  <object id="504" x="-100" y="100" width="50" height="50"/>
+  <object id="505" x="100" y="100" width="50" height="50"/>
+  <object id="506" x="150" y="-100" width="50" height="50"/>
+  <object id="507" x="200" y="-50" width="50" height="50"/>
+  <object id="508" x="200" y="200" width="50" height="50"/>
+  <object id="509" x="400" y="200" width="50" height="50"/>
+  <object id="510" x="450" y="200" width="50" height="50"/>
+  <object id="511" x="700" y="200" width="50" height="50"/>
+  <object id="512" x="400" y="-100" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#f49f0a" id="9" name="weak">
+  <object id="362" x="100" y="-200" width="50" height="50"/>
+  <object id="363" x="100" y="-250" width="50" height="50"/>
+  <object id="364" x="150" y="-200" width="50" height="50"/>
+  <object id="365" x="150" y="-250" width="50" height="50"/>
+  <object id="366" x="200" y="-200" width="50" height="50"/>
+  <object id="367" x="200" y="-250" width="50" height="50"/>
+  <object id="368" x="250" y="-200" width="50" height="50"/>
+  <object id="369" x="250" y="-250" width="50" height="50"/>
+  <object id="370" x="300" y="-200" width="50" height="50"/>
+  <object id="371" x="300" y="-250" width="50" height="50"/>
+  <object id="372" x="350" y="-200" width="50" height="50"/>
+  <object id="373" x="350" y="-250" width="50" height="50"/>
+  <object id="374" x="400" y="-200" width="50" height="50"/>
+  <object id="375" x="400" y="-250" width="50" height="50"/>
+  <object id="376" x="450" y="-200" width="50" height="50"/>
+  <object id="377" x="450" y="-250" width="50" height="50"/>
+  <object id="385" x="550" y="0" width="50" height="50"/>
+  <object id="386" x="500" y="0" width="50" height="50"/>
+  <object id="387" x="550" y="50" width="50" height="50"/>
+  <object id="388" x="500" y="50" width="50" height="50"/>
+  <object id="389" x="550" y="100" width="50" height="50"/>
+  <object id="390" x="500" y="100" width="50" height="50"/>
+  <object id="391" x="550" y="150" width="50" height="50"/>
+  <object id="392" x="500" y="150" width="50" height="50"/>
+  <object id="393" x="650" y="0" width="50" height="50"/>
+  <object id="394" x="600" y="0" width="50" height="50"/>
+  <object id="395" x="650" y="50" width="50" height="50"/>
+  <object id="396" x="600" y="50" width="50" height="50"/>
+  <object id="397" x="650" y="100" width="50" height="50"/>
+  <object id="399" x="650" y="150" width="50" height="50"/>
+  <object id="400" x="600" y="150" width="50" height="50"/>
+  <object id="404" x="450" y="0" width="50" height="50"/>
+  <object id="405" x="450" y="50" width="50" height="50"/>
+ </objectgroup>
+</map>

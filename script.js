@@ -13,6 +13,7 @@ function preload() {
   mapData.codes = loadJSON('maps/codes.json')
 }
 function setup(levelN) {
+  frameCount=0
   if(!gameStart) gameStart = Date.now()
   if(!stageStart) stageStart = Date.now()
   createCanvas(windowWidth, windowHeight, WEBGL)

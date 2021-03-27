@@ -91,9 +91,12 @@ button:active {
  }
 .menuButton:hover {
   background-color: rgba(80, 80, 80, 0.5);
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 
+a {
+  color: #222;
+}
 
 input {
   border: none;

@@ -9,12 +9,14 @@ class Stage {
        document.getElementById("stageTime").innerText = "Stage: " + this.game.getTimeString(stageStart)
        
        }
+       
     scale(this.scale)
     if(this.game.win ) {
       if(this.endTimeout) {
         this.endTimeout--
         background('#32a852')
       } else {
+        this.game.lastFrame = true
         if(this.game.levelN<33) {
           stageStart = null
           setup(this.game.levelN+1)

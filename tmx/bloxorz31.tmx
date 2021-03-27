@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="50" tileheight="50" infinite="1" nextlayerid="11" nextobjectid="3958">
+ <editorsettings>
+  <export target="bloxorz31.json" format="json1"/>
+ </editorsettings>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#aaaa7f" id="5" name="normal">
+  <object id="3792" x="0" y="0" width="50" height="50"/>
+  <object id="3793" x="-50" y="-50" width="50" height="50"/>
+  <object id="3794" x="0" y="-50" width="50" height="50"/>
+  <object id="3795" x="50" y="-50" width="50" height="50"/>
+  <object id="3796" x="50" y="0" width="50" height="50"/>
+  <object id="3797" x="0" y="50" width="50" height="50"/>
+  <object id="3798" x="50" y="50" width="50" height="50"/>
+  <object id="3799" x="-50" y="50" width="50" height="50"/>
+  <object id="3800" x="-50" y="0" width="50" height="50"/>
+  <object id="3805" x="0" y="-200" width="50" height="50"/>
+  <object id="3806" x="-50" y="-250" width="50" height="50"/>
+  <object id="3807" x="0" y="-250" width="50" height="50"/>
+  <object id="3808" x="50" y="-250" width="50" height="50"/>
+  <object id="3809" x="50" y="-300" width="50" height="50"/>
+  <object id="3810" x="50" y="-350" width="50" height="50"/>
+  <object id="3811" x="0" y="-350" width="50" height="50"/>
+  <object id="3812" x="-50" y="-350" width="50" height="50"/>
+  <object id="3813" x="-50" y="-300" width="50" height="50"/>
+  <object id="3814" x="-200" y="0" width="50" height="50"/>
+  <object id="3815" x="-200" y="-50" width="50" height="50"/>
+  <object id="3816" x="-200" y="-100" width="50" height="50"/>
+  <object id="3817" x="-200" y="-150" width="50" height="50"/>
+  <object id="3818" x="-200" y="-200" width="50" height="50"/>
+  <object id="3819" x="-200" y="-250" width="50" height="50"/>
+  <object id="3820" x="-250" y="-50" width="50" height="50"/>
+  <object id="3821" x="-250" y="-100" width="50" height="50"/>
+  <object id="3822" x="-250" y="-150" width="50" height="50"/>
+  <object id="3823" x="-250" y="-200" width="50" height="50"/>
+  <object id="3824" x="-250" y="-250" width="50" height="50"/>
+  <object id="3825" x="-300" y="-250" width="50" height="50"/>
+  <object id="3826" x="-300" y="-200" width="50" height="50"/>
+  <object id="3827" x="-300" y="-100" width="50" height="50"/>
+  <object id="3828" x="-300" y="-50" width="50" height="50"/>
+  <object id="3829" x="-300" y="0" width="50" height="50"/>
+  <object id="3835" x="-450" y="-300" width="50" height="50"/>
+  <object id="3836" x="-450" y="-250" width="50" height="50"/>
+  <object id="3837" x="-450" y="-200" width="50" height="50"/>
+  <object id="3838" x="-500" y="-200" width="50" height="50"/>
+  <object id="3839" x="-550" y="-200" width="50" height="50"/>
+  <object id="3840" x="-550" y="-250" width="50" height="50"/>
+  <object id="3841" x="-550" y="-300" width="50" height="50"/>
+  <object id="3842" x="-500" y="-300" width="50" height="50"/>
+  <object id="3843" x="-500" y="-250" width="50" height="50"/>
+  <object id="3848" x="-500" y="-50" width="50" height="50"/>
+  <object id="3849" x="-500" y="0" width="50" height="50"/>
+  <object id="3850" x="-550" y="0" width="50" height="50"/>
+  <object id="3851" x="-550" y="50" width="50" height="50"/>
+  <object id="3852" x="-550" y="100" width="50" height="50"/>
+  <object id="3853" x="-500" y="100" width="50" height="50"/>
+  <object id="3854" x="-450" y="100" width="50" height="50"/>
+  <object id="3855" x="-450" y="50" width="50" height="50"/>
+  <object id="3856" x="-450" y="0" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#34ebab" id="2" name="bridge">
+  <object id="3464" x="-150" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeF"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3687" x="-100" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeF"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3833" x="-400" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3834" x="-350" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeA"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3857" x="-600" y="50" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeD"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3858" x="-600" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeD"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3859" x="-600" y="100" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeD"/>
+    <property name="startActivated" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3860" x="-100" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3861" x="-150" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeB"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3863" x="-350" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeE"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3864" x="-400" y="0" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeE"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3866" x="100" y="-300" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeC"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3867" x="100" y="-350" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeC"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="3868" x="100" y="-250" width="50" height="50">
+   <properties>
+    <property name="id" value="bridgeC"/>
+    <property name="startActivated" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="goal">
+  <object id="2610" x="0" y="-300" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#55aaff" id="4" name="button">
+  <object id="3693" x="-250" y="0" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeA,bridgeB,bridgeE,bridgeF"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="3831" x="-200" y="-300" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeB"/>
+    <property name="hard" type="bool" value="true"/>
+    <property name="type" value="toggle"/>
+   </properties>
+  </object>
+  <object id="3832" x="-500" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeC"/>
+    <property name="hard" type="bool" value="true"/>
+    <property name="type" value="on"/>
+   </properties>
+  </object>
+  <object id="3862" x="-300" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeE"/>
+    <property name="hard" type="bool" value="true"/>
+    <property name="type" value="toggle"/>
+   </properties>
+  </object>
+  <object id="3869" x="-500" y="50" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeA"/>
+    <property name="hard" type="bool" value="true"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+  <object id="3870" x="-300" y="-150" width="50" height="50">
+   <properties>
+    <property name="activating" value="bridgeA,bridgeB,bridgeE,bridgeF"/>
+    <property name="hard" type="bool" value="false"/>
+    <property name="type" value="off"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#000000" id="6" name="border">
+  <object id="3871" x="-550" y="-350" width="50" height="50"/>
+  <object id="3872" x="-500" y="-350" width="50" height="50"/>
+  <object id="3873" x="-450" y="-350" width="50" height="50"/>
+  <object id="3874" x="-400" y="-350" width="50" height="50"/>
+  <object id="3875" x="-400" y="-300" width="50" height="50"/>
+  <object id="3876" x="-350" y="-300" width="50" height="50"/>
+  <object id="3877" x="-300" y="-300" width="50" height="50"/>
+  <object id="3879" x="-250" y="-300" width="50" height="50"/>
+  <object id="3880" x="-250" y="-350" width="50" height="50"/>
+  <object id="3881" x="-200" y="-350" width="50" height="50"/>
+  <object id="3882" x="-150" y="-350" width="50" height="50"/>
+  <object id="3883" x="-150" y="-300" width="50" height="50"/>
+  <object id="3884" x="-100" y="-300" width="50" height="50"/>
+  <object id="3885" x="-100" y="-350" width="50" height="50"/>
+  <object id="3886" x="-100" y="-400" width="50" height="50"/>
+  <object id="3887" x="-50" y="-400" width="50" height="50"/>
+  <object id="3888" x="0" y="-400" width="50" height="50"/>
+  <object id="3889" x="50" y="-400" width="50" height="50"/>
+  <object id="3890" x="100" y="-400" width="50" height="50"/>
+  <object id="3891" x="150" y="-400" width="50" height="50"/>
+  <object id="3892" x="150" y="-350" width="50" height="50"/>
+  <object id="3893" x="150" y="-300" width="50" height="50"/>
+  <object id="3894" x="150" y="-250" width="50" height="50"/>
+  <object id="3895" x="150" y="-200" width="50" height="50"/>
+  <object id="3896" x="100" y="-200" width="50" height="50"/>
+  <object id="3897" x="50" y="-200" width="50" height="50"/>
+  <object id="3898" x="50" y="-150" width="50" height="50"/>
+  <object id="3899" x="100" y="-150" width="50" height="50"/>
+  <object id="3900" x="100" y="-100" width="50" height="50"/>
+  <object id="3901" x="100" y="-50" width="50" height="50"/>
+  <object id="3902" x="100" y="0" width="50" height="50"/>
+  <object id="3903" x="100" y="50" width="50" height="50"/>
+  <object id="3904" x="100" y="100" width="50" height="50"/>
+  <object id="3905" x="50" y="100" width="50" height="50"/>
+  <object id="3906" x="0" y="100" width="50" height="50"/>
+  <object id="3907" x="-50" y="100" width="50" height="50"/>
+  <object id="3908" x="-100" y="100" width="50" height="50"/>
+  <object id="3909" x="-100" y="50" width="50" height="50"/>
+  <object id="3910" x="-150" y="50" width="50" height="50"/>
+  <object id="3911" x="-200" y="50" width="50" height="50"/>
+  <object id="3912" x="-250" y="50" width="50" height="50"/>
+  <object id="3913" x="-250" y="100" width="50" height="50"/>
+  <object id="3914" x="-300" y="100" width="50" height="50"/>
+  <object id="3915" x="-350" y="100" width="50" height="50"/>
+  <object id="3916" x="-350" y="50" width="50" height="50"/>
+  <object id="3917" x="-400" y="50" width="50" height="50"/>
+  <object id="3918" x="-400" y="100" width="50" height="50"/>
+  <object id="3919" x="-400" y="150" width="50" height="50"/>
+  <object id="3920" x="-450" y="150" width="50" height="50"/>
+  <object id="3921" x="-500" y="150" width="50" height="50"/>
+  <object id="3922" x="-550" y="150" width="50" height="50"/>
+  <object id="3923" x="-600" y="150" width="50" height="50"/>
+  <object id="3924" x="-650" y="150" width="50" height="50"/>
+  <object id="3925" x="-650" y="100" width="50" height="50"/>
+  <object id="3926" x="-650" y="50" width="50" height="50"/>
+  <object id="3927" x="-650" y="0" width="50" height="50"/>
+  <object id="3928" x="-650" y="-50" width="50" height="50"/>
+  <object id="3929" x="-600" y="-50" width="50" height="50"/>
+  <object id="3930" x="-550" y="-50" width="50" height="50"/>
+  <object id="3931" x="-550" y="-100" width="50" height="50"/>
+  <object id="3932" x="-600" y="-100" width="50" height="50"/>
+  <object id="3933" x="-600" y="-150" width="50" height="50"/>
+  <object id="3934" x="-600" y="-200" width="50" height="50"/>
+  <object id="3935" x="-600" y="-250" width="50" height="50"/>
+  <object id="3936" x="-600" y="-300" width="50" height="50"/>
+  <object id="3937" x="-600" y="-350" width="50" height="50"/>
+  <object id="3938" x="-400" y="-200" width="50" height="50"/>
+  <object id="3939" x="-350" y="-200" width="50" height="50"/>
+  <object id="3940" x="-350" y="-150" width="50" height="50"/>
+  <object id="3941" x="-350" y="-100" width="50" height="50"/>
+  <object id="3942" x="-350" y="-50" width="50" height="50"/>
+  <object id="3943" x="-400" y="-50" width="50" height="50"/>
+  <object id="3944" x="-450" y="-50" width="50" height="50"/>
+  <object id="3945" x="-450" y="-100" width="50" height="50"/>
+  <object id="3946" x="-400" y="-100" width="50" height="50"/>
+  <object id="3947" x="-400" y="-150" width="50" height="50"/>
+  <object id="3948" x="-150" y="-200" width="50" height="50"/>
+  <object id="3949" x="-100" y="-200" width="50" height="50"/>
+  <object id="3950" x="-50" y="-200" width="50" height="50"/>
+  <object id="3951" x="-50" y="-150" width="50" height="50"/>
+  <object id="3952" x="-100" y="-150" width="50" height="50"/>
+  <object id="3953" x="-100" y="-100" width="50" height="50"/>
+  <object id="3954" x="-100" y="-50" width="50" height="50"/>
+  <object id="3955" x="-150" y="-50" width="50" height="50"/>
+  <object id="3956" x="-150" y="-100" width="50" height="50"/>
+  <object id="3957" x="-150" y="-150" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#f49f0a" id="9" name="weak">
+  <object id="3801" x="-50" y="-100" width="50" height="50"/>
+  <object id="3802" x="0" y="-100" width="50" height="50"/>
+  <object id="3803" x="50" y="-100" width="50" height="50"/>
+  <object id="3804" x="0" y="-150" width="50" height="50"/>
+  <object id="3844" x="-550" y="-150" width="50" height="50"/>
+  <object id="3845" x="-500" y="-150" width="50" height="50"/>
+  <object id="3846" x="-450" y="-150" width="50" height="50"/>
+  <object id="3847" x="-500" y="-100" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="10" name="splitter"/>
+</map>
