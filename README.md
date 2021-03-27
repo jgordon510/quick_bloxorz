@@ -6,7 +6,7 @@ Bloxorz is a 3d puzzle game in 33 stages published on Miniclip in 2007. The orig
 
 The objective of the game is to get the block to fall into a square hole that is at the end of each stage, there are 33 stages to complete.
 
-Quick Bloxorz is a low poly HTML5 version with no animations. It is intended to keep accessible the original puzzle designs, as well as to offer a way for non-programmers to design puzzles with the same mechanics. 
+[Quick Bloxorz](https://www.quickblox.cc) is a low poly HTML5 version with no animations. It is intended to keep accessible the original puzzle designs, as well as to offer a way for non-programmers to design puzzles with the same mechanics. 
 
 The Bloxorz speedrunning community has also found it useful to optimize and practice runs.  Quick Blozorz includes a speedrun clock that  can be enabled in the options menu.
 
